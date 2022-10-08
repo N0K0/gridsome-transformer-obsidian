@@ -1,14 +1,31 @@
-# @gridsome/transformer-remark
+# WORK IN PROGRESS
+
+This is a fork of the `@gridsome/transformer-remark`
+
+This is needed since I need to add for multiple types of links that needs support.
+Which when parsed also needs to be used to extend some fields in graphql. 
+From what I can see, this is not possible via remark plugins, or to have multiple transformers for the same file format. 
+
+[ ] `==highlight text==`  
+[ ] `[[Internal link]]`  
+[ ] `[[Internal link|With custom text]]`  
+[ ] `[[Internal link#heading]]`  
+[ ] `[[Internal link#heading|With custom text]]`  
+[ ] `![[Embed note]]`  
+[ ] `![[Embed note#heading]]`
+
+
+# All under here is from `@gridsome/transformer-remark`
 
 > Markdown transformer for Gridsome with [Remark](https://remark.js.org/).
 
-## Install
+## Install [TODO FIX]
 
 - `npm install @gridsome/transformer-remark`
 - `yarn add @gridsome/transformer-remark`
 - `pnpm install @gridsome/transformer-remark`
 
-## Basic usage
+## Basic usage [TODO FIX] 
 
 The transformer is automatically used if installed in your project. Custom transformer options can either be set for each source plugin or globally.
 

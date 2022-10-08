@@ -1,9 +1,9 @@
 {
-  "version": "0.6.4",
+  "version": "0.0.1",
   "name": "gridsome-transformer-obsidian",
   "description": "Markdown transformer for Gridsome",
-  "homepage": "https://github.com/gridsome/gridsome/tree/master/packages/transformer-remark#readme",
-  "repository": "https://github.com/gridsome/gridsome/tree/master/packages/transformer-remark",
+  "homepage": "https://github.com/N0K0/gridsome-transformer-obsidian#readme",
+  "repository": "https://github.com/N0K0/gridsome-transformer-obsidian",
   "main": "index.js",
   "keywords": [
     "gridsome",
